@@ -6,6 +6,7 @@ gem "middleman", "~>3.3.4"
 
 gem 'susy', '~> 2.1.3'
 
+gem 'breakpoint'
 # Live-reloading plugin
 gem "middleman-livereload", "~> 3.1.0"
 

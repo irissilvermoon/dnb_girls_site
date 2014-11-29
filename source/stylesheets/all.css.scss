@@ -4,6 +4,16 @@
 @import "susy";
 @import "breakpoint";
 
+@include border-box-sizing;
+
+@mixin clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -16,7 +26,48 @@ html, body {
 }
 
 body {
-  background: #4D5899;
+  background: #000016;
   text-align: left;
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+
+.site-header {
+  top: 0;
+  position: fixed;
+  width: 100%;
+  height: 700px;
+  background-color: #4D5899;
+  opacity: 0.9;
+  z-index: 9999;
+}
+
+.nav-bar {
+  @include clearfix;
+
+  h1 {
+    color: #000016;
+    font-size: 5em;
+    font-weight: 800;
+    text-align: center;
+  }
+}
+
+.nav-links {
+  @include clearfix;
+  padding-top: 10px;
+  a {
+    color: #000016;
+    &:visited {
+      color: #000016;
+    }
+
+    &:hover, &:active {
+      color: #26D0EB;
+      border-bottom-style: none;
+    }
+  }
+}
+
+@import 'mobile';
+@import 'midsize';
+@import 'fullsize';
