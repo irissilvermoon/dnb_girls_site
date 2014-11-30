@@ -4,6 +4,7 @@
 @import "susy";
 @import "breakpoint";
 
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:300italic,300,600,800,400");
 @include border-box-sizing;
 
 @mixin clearfix {
@@ -28,12 +29,11 @@ html, body {
 body {
   background: #000016;
   text-align: left;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .site-header {
   top: 0;
-  position: fixed;
   width: 100%;
   height: 700px;
   background-color: #4D5899;
@@ -47,7 +47,7 @@ body {
   h1 {
     color: #000016;
     font-size: 5em;
-    font-weight: 800;
+    font-weight: 500;
     text-align: center;
   }
 }
@@ -55,8 +55,9 @@ body {
 .nav-links {
   @include clearfix;
   padding-top: 10px;
+  text-transform: uppercase;
   a {
-    color: #000016;
+    color: #86FFD6;
     &:visited {
       color: #000016;
     }
@@ -67,6 +68,128 @@ body {
     }
   }
 }
+
+.body-container {
+  @include clearfix;
+  text-align: center;
+
+  h2 {
+    width: 100%;
+    color: #A3ADE6;
+    font-weight: 100;
+    font-size: 3em;
+    margin-bottom: 10px;
+    padding-top: 100px;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+  }
+
+  h2::after {
+    content: "   ";
+    text-decoration: underline;
+    border-bottom: 2px solid #4D5899;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 125px;
+    padding-top: 10px;
+  }
+
+  // h2::before {
+  //   content: "   ";
+  //   text-decoration: overline;
+  //   border-bottom: 2px solid #4D5899;
+  //   margin-left: auto;
+  //   margin-right: auto;
+  //   display: block;
+  //   width: 125px;
+  //   padding-bottom: 20px;
+  // }
+
+
+  .about {
+    @include clearfix;
+  }
+
+  .about-container {
+    text-align: left;
+    padding-bottom: 50px;
+    padding-top: 40px;
+
+    p {
+      font-weight: 100;
+      font-size: 1.1em;
+      color: #A3ADE6;
+    }
+
+    ul {
+      padding-top: 25px;
+    }
+
+    a {
+      margin: 30px 0px 15px;
+      line-height: 1.5em;
+      font-weight: 100;
+      text-align: left;
+      font-size: 1em;
+      color: #A3ADE6;
+      &:hover, &:active {
+        color: #26D0EB;
+        border-bottom-style: none;
+      }
+    }
+  }
+
+  .girls {
+    @include clearfix;
+  }
+
+  .girls-container {
+    @include clearfix;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+  }
+
+  .profile {
+    @include clearfix;
+    background-color: #26D0EB;
+    padding: 30px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    min-width: 280px;
+
+    p {
+      font-size: 0.75em;
+      font-weight: 100;
+      color: #000016;
+      line-height: 1.2em;
+      padding: 5px 0 5px 3px;
+      margin: 0;
+      border-bottom: 1px solid;
+      border-top: 1px solid;
+    }
+
+    img {
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.65);
+      margin-bottom: 10px;
+    }
+  }
+}
+
+#footer {
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  bottom: 0px;
+  font-size: 0.85em;
+  background-color: #4D5899;
+  color: #000016;
+  font-weight: 300;
+  letter-spacing: 0.1em;
+}
+
 
 @import 'mobile';
 @import 'midsize';
