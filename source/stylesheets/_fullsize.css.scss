@@ -69,16 +69,51 @@ $profiles: (
       margin-left: span(1);
       margin-right: span(1);
 
+      .about-content {
+        @include span(7);
+      }
+
+      .main-soundcloud {
+        @include span(4);
+      }
+    }
+
+    .profile-header {
+      width: 1374px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 25px;
+
+      .name-container {
+        width: 100%;
+      }
+
+      .slick-slider {
+        margin-bottom: 0;
+      }
+    }
+
+    .profile-content {
+      @include span(12);
+      margin-left: span(1);
+      margin-right: span(1);
+
       .soundcloud {
         @include span(4);
       }
 
-      .about-content {
-        @include span(7);
+      .bio {
+        @include span(6);
+        color: #A3ADE6;
+
+        p {
+          padding: 10px;
+        }
       }
     }
 
     #footer {
+      @include span(12);
     }
   }
 

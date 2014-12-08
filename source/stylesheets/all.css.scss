@@ -3,8 +3,10 @@
 @import "compass";
 @import "susy";
 @import "breakpoint";
+@import "font-awesome-sprockets";
+@import "font-awesome";
 
-@import url("http://fonts.googleapis.com/css?family=Open+Sans:300italic,300,600,800,400");
+@import url("http://fonts.googleapis.com/css?family=Maven+Pro:400,500,700,900");
 @include border-box-sizing;
 
 @mixin clearfix {
@@ -76,18 +78,18 @@ body {
   h2 {
     width: 100%;
     color: #A3ADE6;
-    font-weight: 100;
+    font-weight: 900;
     font-size: 3em;
     margin-bottom: 10px;
     padding-top: 100px;
     text-transform: uppercase;
-    letter-spacing: 0.2em;
+    letter-spacing: 0.1em;
   }
 
   h2::after {
     content: "   ";
     text-decoration: underline;
-    border-bottom: 2px solid #4D5899;
+    border-bottom: 3px solid #4D5899;
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -160,14 +162,14 @@ body {
     min-width: 280px;
 
     p {
-      font-size: 0.75em;
+      font-size: 1em;
       font-weight: 100;
       color: #000016;
       line-height: 1.2em;
       padding: 5px 0 5px 3px;
       margin: 0;
-      border-bottom: 1px solid;
-      border-top: 1px solid;
+      border-bottom: 2px solid;
+      border-top: 2px solid;
     }
 
     img {
@@ -189,6 +191,72 @@ body {
   font-weight: 300;
   letter-spacing: 0.1em;
 }
+
+
+.profile-header {
+  position: relative;
+
+  .profile-images {
+    @include clearfix;
+
+    img {
+
+    }
+  }
+
+  .name-container {
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    padding: 0 0 20px 20px;
+
+    h1 {
+      color: #A3ADE6;
+      font-size: 5em;
+      font-weight: 500;
+      text-shadow: 2px 2px 7px #000016;
+      letter-spacing: 0.1em;
+      padding-bottom: none;
+      margin-bottom: none;
+    }
+
+    h3 {
+      color: #25A6BA;
+      font-size: 2em;
+      font-weight: 100;
+      font-style: italic;
+      text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.65);
+    }
+
+    .social-media {
+      @include clearfix;
+      font-size: 3em;
+      text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.65);
+
+      a {
+        color: #4D5899;
+        text-decoration: none;
+        padding: 0 5px 0 5px;
+
+        &:hover, &:active {
+          color: #4617CC;
+        }
+
+        &:visited {
+          color: #4D5899;
+        }
+      }
+    }
+  }
+}
+
+.profile-content {
+  @include clearfix;
+  margin: 25px 0 25px 0;
+
+}
+
+
 
 
 @import 'mobile';

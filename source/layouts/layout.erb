@@ -10,29 +10,20 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 
     <!-- Use title if it's in the page YAML frontmatter -->
-    <title><%= current_page.data.title || "DnB Girls" %></title>
+    <title>
+    <% if @title %>
+      <%= @title + " | DnB Girls" "DnB Girls" %>
+    <% else %>
+      <%= "DnB Girls" %>
+    <% end %>
+    </title>
 
 
-    <%= stylesheet_link_tag "style", "normalize", "all" %>
-    <%= javascript_include_tag "all" %>
+    <%= stylesheet_link_tag "slick", "style" "normalize", "all" %>
+    <%= javascript_include_tag "jquery-1.9.1", "all", "slick.min" %>
 
   </head>
 
-  <header class="site-header">
-    <nav>
-      <div class="nav-bar">
-        <h1>DnB Girls</h1>
-        <div class="nav-links" id="nav">
-          <a class="main-nav" href="#">Home</a>
-          <a class="main-nav" href="#about">About</a>
-          <a class="main-nav" href="#girls">The Girls</a>
-          <a class="main-nav" href="#links">Links</a>
-          <a class="main-nav" href="#news">News</a>
-          <a class="main-nav last" href="#contact">Contact</a>
-        </div>
-      </div>
-    </nav>
-  </header>
 
 
   <body class="<%= page_classes %>">
