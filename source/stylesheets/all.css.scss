@@ -160,6 +160,9 @@ body {
     text-transform: uppercase;
     margin-bottom: 20px;
     min-width: 280px;
+    &:hover {
+      background: #4D5899;
+    }
 
     p {
       font-size: 1em;

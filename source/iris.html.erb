@@ -1,33 +1,36 @@
-<% @title = "Iris" %>
+<% @title = data.bios.iris.name %>
 
 <div class="profile-header">
   <div class="profile-images">
-    <div class="image"><img src="images/iris/iris1.jpg"></div>
-    <div class="image"><img src="images/iris/iris2.jpg"></div>
-    <div class="image"><img src="images/iris/iris3.jpg"></div>
-    <div class="image"><img src="images/iris/iris4.jpg"></div>
+    <% data.bios.iris.images.each do |i| %>
+      <div class="image"><%= image_tag(i) %></div>
+    <% end %>
   </div>
   <div class="name-container">
-    <h1>Iris</h1>
+    <h1><%= data.bios.iris.name %></h1>
     <div class="social-media">
-      <a href="http://facebook.com/irisdnb" target="_blank"><i class="fa fa-facebook-square"></i></a>
-      <a href="http://soundcloud.com/iris" target="_blank"><i class="fa fa-soundcloud"></i></a>
-      <a href="http://twitter.com/irissilvermoon" target="_blank"><i class="fa fa-twitter"></i></i></a>
-      <a href="http://instagram.com/irisdnb" target="_blank"><i class="fa fa-instagram"></i></a>
+      <% link_to(data.bios.iris.facebook, :target => "_blank") do %>
+        <i class="fa fa-facebook-square"></i>
+      <% end %>
+      <% link_to(data.bios.iris.soundcloud, :target => "_blank") do %>
+        <i class="fa fa-soundcloud"></i>
+      <% end %>
+      <% link_to(data.bios.iris.twitter, :target => "_blank") do %>
+        <i class="fa fa-twitter"></i>
+      <% end %>
+      <% link_to(data.bios.iris.instagram, :target => "_blank") do %>
+        <i class="fa fa-instagram"></i>
+      <% end %>
     </div>
-    <h3>Metalheadz // Hospital // CIA // Commercial Suicide // Dispatch</h3>
+    <h3><%= data.bios.iris.affiliations %></h3>
   </div>
 </div>
 
 <div class="profile-content">
   <div class="soundcloud">
-    <iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/2790548&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+    <%= data.bios.iris.soundcloud_link %>
   </div>
   <div class="bio">
-    <p>Iris was introduced to electronic music at age 13, when she first heard “Insomnia” by Faithless on Seattle’s C89.5. Since then, her love affair with the music has only intensified as she has honed a diverse set of tastes and an equally exacting repertoire of skills behind the decks. Her journey has taken her from UK Hard House, into the sounds of Trance and Progressive, finally culminating in her current focus of Deep Drum and Bass, Techno.</p>
-
-    <p>Iris has recently started collaborating on original productions with DnB veteran Quadrant. Their first tune, Anthropocene, was spotted immediately by none other than Goldie himself, and snapped up for the Metalheadz Genesis EP volume 4. Other collaborations, with Quadrant and local legend Kid Hops, have been picked up and supported by Total Science for their CIA imprint, as well as Hospital Recordings, and Italian label Avantgarde.</p>
-
-    <p>With an ever growing arsenal of original productions, a host of exclusive tunes from the hottest producers around the world, all held down by meticulous mixing and track selection, Iris is a force to be reckoned with.</p>
+    <%= data.bios.iris.bio %>
   </div>
 </div>
