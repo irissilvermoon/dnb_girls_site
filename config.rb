@@ -6,7 +6,13 @@
 # compass_config do |config|
 #   config.output_style = :compact
 # end
+DNB_GIRLS = %w[iris jams mittz mizeyesis ella bitchplz tiger
+               crystal distinct jfkillah kytami treachery]
 
+
+DNB_GIRLS.each do |name|
+  proxy "/#{name}.html", "/bio.html", :locals => { :dj_name => name }
+end
 ###
 # Page options, layouts, aliases and proxies
 ###

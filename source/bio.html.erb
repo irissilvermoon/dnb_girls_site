@@ -1,0 +1,50 @@
+<% @title = data.bios[dj_name].name %>
+
+<div class="profile-header">
+  <div class="profile-images">
+    <% data.bios[dj_name].images.each do |i| %>
+      <div class="image"><%= image_tag(i) %></div>
+    <% end %>
+  </div>
+
+  <div class="name-container">
+    <h1><%= data.bios[dj_name].name %></h1>
+    <div class="social-media">
+
+      <% if data.bios[dj_name].facebook %>
+        <% link_to(data.bios[dj_name].facebook, :target => "_blank") do %>
+          <i class="fa fa-facebook-square"></i>
+        <% end %>
+      <% end %>
+
+      <% if data.bios[dj_name].soundcloud %>
+        <% link_to(data.bios[dj_name].soundcloud, :target => "_blank") do %>
+          <i class="fa fa-soundcloud"></i>
+        <% end %>
+      <% end %>
+
+      <% if data.bios[dj_name].twitter %>
+        <% link_to(data.bios[dj_name].twitter, :target => "_blank") do %>
+          <i class="fa fa-twitter"></i>
+        <% end %>
+      <% end %>
+
+      <% if data.bios[dj_name].instagram %>
+        <% link_to(data.bios[dj_name].instagram, :target => "_blank") do %>
+          <i class="fa fa-instagram"></i>
+        <% end %>
+      <% end %>
+    </div>
+
+    <h3><%= data.bios[dj_name].affiliations %></h3>
+  </div>
+</div>
+
+<div class="profile-content">
+  <div class="soundcloud">
+    <%= data.bios[dj_name].soundcloud_link %>
+  </div>
+  <div class="bio">
+    <%= data.bios[dj_name].bio %>
+  </div>
+</div>
