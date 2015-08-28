@@ -1,0 +1,107 @@
+$susy: (
+  columns: 4,
+  gutters: 1/4,
+  math: fluid,
+  gutter-position: inside,
+  container-position: center
+);
+
+$profiles: (
+  columns: 4,
+  gutters: 1/8,
+  math: fluid,
+  gutter-position: split,
+  container-position: center
+);
+
+@include breakpoint(768px) {
+  @include with-layout($susy) {
+    .head-container {
+     
+    }
+
+    .site-header {
+     
+    }
+
+    .nav-bar {
+     
+    }
+
+    .nav-links {
+     
+    }
+
+    .main-nav {
+     
+    }
+
+    .about {
+      @include span(4);
+    }
+
+    .about-container {
+      @include span(4);
+      margin-left: auto;
+      margin-right: auto;
+
+      .about-content {
+        @include span(4);
+        margin-top: 25px;
+      }
+
+      .main-soundcloud {
+        @include span(4);
+      }
+    }
+
+    .profile-header {
+     
+
+      .name-container {
+        
+      }
+
+      .slick-slider {
+       
+      }
+    }
+
+    .profile-content {
+     
+
+      .soundcloud {
+        
+      }
+
+      .bio {
+        
+
+        p {
+         
+        }
+      }
+    }
+
+    #footer {
+      @include span(4);
+    }
+  }
+
+  .girls {
+
+    @include with-layout($profiles, true) {
+      .girls-container {
+        @include span(4);
+        margin-left: auto;
+        margin-right: auto;
+        min-width: 320px;
+
+      }
+
+      .profile {
+        @include span(2);
+      }
+    }
+  }
+}

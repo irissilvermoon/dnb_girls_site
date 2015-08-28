@@ -1,0 +1,85 @@
+
+
+@include breakpoint(320px) {
+  @include with-layout($susy) {
+    .head-container {
+     
+    }
+
+    .site-header {
+      min-width: 320px; 
+    }
+
+    .nav-bar {
+     
+    }
+
+    .nav-links {
+     
+    }
+
+    .main-nav {
+     
+    }
+
+    .about {
+
+    }
+
+    .about-container {
+      margin-left: auto;
+      margin-right: auto;
+
+      .about-content {
+        margin: 10px;
+      }
+
+      .main-soundcloud {
+        margin: 10px;
+      }
+    }
+
+    .profile-header {
+      
+      .name-container {
+        
+      }
+
+      .slick-slider {
+        margin-bottom: 0;
+      }
+    }
+
+    .profile-content {
+      
+
+      .soundcloud {
+        
+      }
+
+      .bio {
+        
+        p {
+          
+        }
+      }
+    }
+
+    #footer {
+     
+    }
+  }
+
+  .girls {
+    .girls-container {
+      margin: 10px;
+      min-width: 300px;
+
+    }
+
+    .profile {
+
+    }
+    
+  }
+}
