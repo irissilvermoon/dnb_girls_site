@@ -78,7 +78,7 @@ $profiles: (
         
 
         p {
-         
+          padding: 10px;   
         }
       }
     }
@@ -89,7 +89,6 @@ $profiles: (
   }
 
   .girls {
-
     @include with-layout($profiles, true) {
       .girls-container {
         @include span(4);

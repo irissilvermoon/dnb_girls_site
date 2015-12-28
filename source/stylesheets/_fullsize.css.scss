@@ -14,7 +14,7 @@ $profiles: (
   container-position: center
 );
 
-@include breakpoint(1200px) {
+@include breakpoint(1000px) {
   @include with-layout($susy) {
     .head-container {
       width: 100%;
@@ -119,7 +119,7 @@ $profiles: (
 
   .girls {
 
-    @include with-layout($profiles, true) {
+    @include with-layout($susy, true) {
       .girls-container {
         width: 80%;
         margin-left: auto;

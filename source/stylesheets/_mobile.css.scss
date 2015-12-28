@@ -1,73 +1,72 @@
 
 
 @include breakpoint(320px) {
-  @include with-layout($susy) {
-    .head-container {
-     
+  .head-container {
+   
+  }
+
+  .site-header {
+    min-width: 320px; 
+  }
+
+  .nav-bar {
+   
+  }
+
+  .nav-links {
+   
+  }
+
+  .main-nav {
+   
+  }
+
+  .about {
+
+  }
+
+  .about-container {
+    margin-left: auto;
+    margin-right: auto;
+
+    .about-content {
+      margin: 10px;
     }
 
-    .site-header {
-      min-width: 320px; 
+    .main-soundcloud {
+      margin: 10px;
     }
+  }
 
-    .nav-bar {
-     
-    }
-
-    .nav-links {
-     
-    }
-
-    .main-nav {
-     
-    }
-
-    .about {
-
-    }
-
-    .about-container {
-      margin-left: auto;
-      margin-right: auto;
-
-      .about-content {
-        margin: 10px;
-      }
-
-      .main-soundcloud {
-        margin: 10px;
-      }
-    }
-
-    .profile-header {
+  .profile-header {
+    
+    .name-container {
       
-      .name-container {
-        
-      }
-
-      .slick-slider {
-        margin-bottom: 0;
-      }
     }
 
-    .profile-content {
+    .slick-slider {
+      margin-bottom: 0;
+    }
+  }
+
+  .profile-content {
+    
+
+    .soundcloud {
       
-
-      .soundcloud {
-        
-      }
-
-      .bio {
-        
-        p {
-          
-        }
-      }
     }
 
-    #footer {
-     
+    .bio {
+      color: #A3ADE6;
+      
+      p {
+        padding: 10px;
+      }
     }
+  }
+
+  #footer {
+   
   }
 
   .girls {
@@ -76,10 +75,8 @@
       min-width: 300px;
 
     }
-
     .profile {
 
-    }
-    
+    }    
   }
 }
