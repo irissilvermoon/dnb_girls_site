@@ -79,7 +79,7 @@ $profiles: (
     }
 
     .profile-header {
-      width: 1374px;
+      @include span(12);
       margin-left: auto;
       margin-right: auto;
       margin-bottom: 25px;
@@ -95,8 +95,6 @@ $profiles: (
 
     .profile-content {
       @include span(12);
-      margin-left: span(1);
-      margin-right: span(1);
 
       .soundcloud {
         @include span(4);
