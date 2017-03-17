@@ -23,7 +23,9 @@
   </head>
 
   <body class="<%= page_classes %>">
-    <%= yield %>
+    <div class="grid-container">
+      <%= yield %>
+    </div>
     <%= partial 'footer' %>
   </body>
 </html>

@@ -15,21 +15,22 @@ $profiles: (
 );
 
 @include breakpoint(1000px) {
+  .grid-container {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   @include with-layout($susy) {
     .head-container {
       width: 100%;
       margin-top: 100px;
     }
 
-    .site-header {
-      min-width: 1100px;
-    }
-
     .nav-bar {
       @include span(12);
       margin-right: auto;
       margin-left: auto;
-      min-width: 1100px;
       padding: 25px;
       i {
         float: left;
@@ -43,7 +44,6 @@ $profiles: (
       @include span(12);
       margin-right: auto;
       margin-left: auto;
-      min-width: 1100px;
       padding: 25px;
       text-align: center;
     }
@@ -85,7 +85,7 @@ $profiles: (
       margin-bottom: 25px;
 
       .name-container {
-        width: 100%;
+        @include span(12);
       }
 
       .slick-slider {
@@ -119,16 +119,16 @@ $profiles: (
 
     @include with-layout($susy, true) {
       .girls-container {
-        width: 80%;
         margin-left: auto;
         margin-right: auto;
-        min-width: 1400px;
+      }
 
+      a {
+        display: inline-block;
       }
 
       .profile {
-        @include span(2);
-
+        @include span(4);
       }
     }
   }
