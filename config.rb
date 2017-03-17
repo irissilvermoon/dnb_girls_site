@@ -7,7 +7,8 @@
 #   config.output_style = :compact
 # end
 DNB_GIRLS = %w[iris jams mittz mizeyesis ella bitchplz tiger
-               crystal distinct jfkillah kytami treachery]
+               crystal distinct jfkillah kytami jahkillin remedy 
+               athena ohmgirl]
 
 
 DNB_GIRLS.each do |name|

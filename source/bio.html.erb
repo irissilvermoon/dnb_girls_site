@@ -5,8 +5,10 @@
 </div>
 <div class="profile-header">
   <div class="profile-images">
-    <% data.bios[dj_name].images.each do |i| %>
-      <div class="image"><%= image_tag(i) %></div>
+    <% if data.bios[dj_name].images.present? %>
+      <% data.bios[dj_name].images.each do |i| %>
+        <div class="image"><%= image_tag(i) %></div>
+      <% end %>
     <% end %>
   </div>
 

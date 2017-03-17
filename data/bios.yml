@@ -206,6 +206,10 @@ remedy:
   name: Remedy
   affiliations: Forward DnB // DnB Hive
   images:
+    - "images/remedy/remedy6.jpg"
+    - "images/remedy/remedy2.jpg"
+    - "images/remedy/remedy3.jpg"
+    - "images/remedy/remedy4.jpg"
   facebook: www.facebook.com/Remedy-Toronto
   instagram: www.instagram.com/dnbremedy
   twitter: www.twitter.com/dnbremedy
@@ -220,9 +224,6 @@ jahkillin:
   affiliations: LaBelless Records // Revolve Records // BUS Bass // Broad Squad
   images:
     - "images/jahkillin/jahkillin1.jpg"
-    - "images/jahkillin/jahkillin2.jpg"
-    - "images/jahkillin/jahkillin3.jpg"
-    - "images/jahkillin/jahkillin4.jpg"
   facebook: https://www.facebook.com/jAhKiLLin/ 
   instagram: https://www.instagram.com/sents1/
   twitter:
@@ -247,6 +248,10 @@ ohmgirl:
   name: Ohm Girl
   affiliations: Rum and Bass
   images:
+    - "images/ohmgirl/ohmgirl1.jpg"
+    - "images/ohmgirl/ohmgirl2.jpg"
+    - "images/ohmgirl/ohmgirl3.jpg"
+    - "images/ohmgirl/ohmgirl4.jpg"
   facebook: https://www.facebook.com/OhmGirl/
   instagram: https://www.instagram.com/ohm.girl/
   twitter:  https://twitter.com/girl_ohm
@@ -260,6 +265,10 @@ athena:
   name: Dj Athena
   affiliations: The Crew // Bass Mafia // Two Tone
   images:
+    - "images/athena/athena1.jpg"
+    - "images/athena/athena2.jpg"
+    - "images/athena/athena3.jpg"
+    - "images/athena/athena4.jpg"
   facebook: https://www.facebook.com/djathenagow
   instagram: www.instagram.com/athenagow
   twitter: www.twitter.com/djathena
