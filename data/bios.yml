@@ -77,10 +77,7 @@ ella:
   name: Ella
   affiliations: Beatfreakz Records
   images:
-    - "images/ella/ella1.jpg"
-    - "images/ella/ella2.jpg"
-    - "images/ella/ella3.jpg"
-    - "images/ella/ella4.jpg"
+    - "images/header.jpg"
   facebook: "https://www.facebook.com/ella.grave"
   instagram:
   twitter:
@@ -95,10 +92,7 @@ crystal:
   name: Crystal Fresh
   affiliations: DnB Girls // Sweet Ninja Fresh // The Wild Bunch // EleKtriK KolleKtivE
   images:
-    - "images/crystal/crystal1.jpg"
-    - "images/crystal/crystal2.jpg"
-    - "images/crystal/crystal3.jpg"
-    - "images/crystal/crystal4.jpg"
+    - "images/header.jpg"
   facebook: "https://www.facebook.com/djcrystalfresh"
   instagram:
   twitter:
@@ -149,10 +143,7 @@ tiger:
   name: Bulletproof Tiger
   affiliations: Driven AM // Funked Dub // Remedy // DnB Social
   images:
-    - "images/tiger/tiger1.jpg"
-    - "images/tiger/tiger2.jpg"
-    - "images/tiger/tiger3.jpg"
-    - "images/tiger/tiger4.jpg"
+    - "images/header.jpg"
   facebook: "https://www.facebook.com/TGRdnb"
   instagram: "https://twitter.com/TGRdnb"
   twitter:
