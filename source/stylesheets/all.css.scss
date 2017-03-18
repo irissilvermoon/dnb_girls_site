@@ -43,6 +43,17 @@ body {
   z-index: 9999;
 }
 
+.logo {
+  margin-right: auto;
+  margin-left: auto; 
+  padding-top: 50px;
+  img {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
 .nav-bar {
   @include clearfix;
 
