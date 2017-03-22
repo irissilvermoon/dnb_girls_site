@@ -1,6 +1,13 @@
 
 
 @include breakpoint(320px) {
+
+  .logo img{
+      max-height: 300px;
+      max-width: 300px;
+     
+    }
+
   .head-container {
    
   }

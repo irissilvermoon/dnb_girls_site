@@ -22,6 +22,12 @@ $profiles: (
   }
 
   @include with-layout($susy) {
+
+    .logo img {
+      max-height: 500px;
+      max-width: 500px;
+    }
+    
     .head-container {
       width: 100%;
       margin-top: 100px;
@@ -38,13 +44,6 @@ $profiles: (
         padding-top: 5px;
         padding-left: 5px;
       }
-    }
-
-    .logo {
-      // @include span(12);
-      // margin-right: span(3);
-      // margin-left: span(3); 
-      // padding-top: 50px;
     }
 
     .nav-links {
