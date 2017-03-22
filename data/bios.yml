@@ -55,10 +55,7 @@ kytami:
   name: Kytami
   affiliations: East Van Digital // DnB Girls
   images:
-    - "images/kytami/kytami1.jpg"
-    - "images/kytami/kytami2.jpg"
-    - "images/kytami/kytami3.jpg"
-    - "images/kytami/kytami4.jpg"
+    - "images/header.jpg"
   facebook: "https://www.facebook.com/kytami"
   instagram:
   twitter:
