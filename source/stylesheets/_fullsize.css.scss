@@ -120,6 +120,12 @@ $profiles: (
       @include span(12);
     }
   }
+  
+section.border button {
+  @include span(2);
+  margin-left: span(5);
+  margin-right: span(5);
+}
 
   .girls {
 

@@ -88,6 +88,18 @@ $profiles: (
     }
   }
 
+  section.border {
+    @include span(4);
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+
+  section.border button {
+    @include span(1);
+    
+  }
+
   .girls {
     @include with-layout($profiles, true) {
       .girls-container {
