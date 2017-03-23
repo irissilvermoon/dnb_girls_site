@@ -8,7 +8,7 @@
 # end
 DNB_GIRLS = %w[iris jams mittz mizeyesis ella bitchplz tiger
                crystal distinct jfkillah kytami jahkillin remedy 
-               athena ohmgirl]
+               athena ohmgirl ninjette lovelace]
 
 
 DNB_GIRLS.each do |name|
