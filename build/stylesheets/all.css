@@ -8,8 +8,8 @@
 @import url("http://fonts.googleapis.com/css?family=Maven+Pro:400,500,700,900");
 @font-face {
   font-family: 'FontAwesome';
-  src: url("/fonts/font-awesome/fontawesome-webfont.eot");
-  src: url("/fonts/font-awesome/fontawesome-webfont.eot?#iefix") format("embedded-opentype"), url("/fonts/font-awesome/fontawesome-webfont.woff") format("woff"), url("/fonts/font-awesome/fontawesome-webfont.ttf") format("truetype"), url("/fonts/font-awesome/fontawesome-webfont.svg#fontawesomeregular") format("svg");
+  src: url("../fonts/font-awesome/fontawesome-webfont.eot");
+  src: url("../fonts/font-awesome/fontawesome-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/font-awesome/fontawesome-webfont.woff") format("woff"), url("../fonts/font-awesome/fontawesome-webfont.ttf") format("truetype"), url("../fonts/font-awesome/fontawesome-webfont.svg#fontawesomeregular") format("svg");
   font-weight: normal;
   font-style: normal; }
 /* line 4, /Users/kcaplan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.2.2/assets/stylesheets/font-awesome/_core.scss */
@@ -2359,7 +2359,48 @@ body {
   font-weight: 300;
   letter-spacing: 0.1em; }
 
-/* line 213, /Users/kcaplan/dev/dnb_girls_site/source/stylesheets/all.css.scss */
+/* line 212, /Users/kcaplan/dev/dnb_girls_site/source/stylesheets/all.css.scss */
+.news-body {
+  text-align: left;
+  padding-bottom: 50px;
+  padding-top: 40px; }
+  /* line 217, /Users/kcaplan/dev/dnb_girls_site/source/stylesheets/all.css.scss */
+  .news-body p {
+    font-size: 1em;
+    color: #A3ADE6;
+    padding: 5px; }
+  /* line 223, /Users/kcaplan/dev/dnb_girls_site/source/stylesheets/all.css.scss */
+  .news-body h1 {
+    font-size: 4em;
+    color: #A3ADE6;
+    padding: 20px 20px 20px 0px;
+    text-transform: underline;
+    font-weight: bold; }
+  /* line 231, /Users/kcaplan/dev/dnb_girls_site/source/stylesheets/all.css.scss */
+  .news-body h2 {
+    font-size: 1.5em;
+    color: #A3ADE6; }
+  /* line 236, /Users/kcaplan/dev/dnb_girls_site/source/stylesheets/all.css.scss */
+  .news-body h4 {
+    font-size: 1em;
+    font-style: italic;
+    color: #4D5899;
+    padding: 3px 3px 3px 0px;
+    font-weight: bold; }
+  /* line 244, /Users/kcaplan/dev/dnb_girls_site/source/stylesheets/all.css.scss */
+  .news-body a {
+    margin: 30px 0px 15px;
+    line-height: 1.5em;
+    font-weight: 100;
+    text-align: left;
+    font-size: 1em;
+    color: #A3ADE6; }
+    /* line 251, /Users/kcaplan/dev/dnb_girls_site/source/stylesheets/all.css.scss */
+    .news-body a:hover, .news-body a:active {
+      color: #26D0EB;
+      border-bottom-style: none; }
+
+/* line 257, /Users/kcaplan/dev/dnb_girls_site/source/stylesheets/all.css.scss */
 .profile-header {
   position: relative; }
   /* line 13, /Users/kcaplan/dev/dnb_girls_site/source/stylesheets/all.css.scss */
@@ -2367,12 +2408,12 @@ body {
     content: "";
     display: table;
     clear: both; }
-  /* line 219, /Users/kcaplan/dev/dnb_girls_site/source/stylesheets/all.css.scss */
+  /* line 263, /Users/kcaplan/dev/dnb_girls_site/source/stylesheets/all.css.scss */
   .profile-header .profile-images img {
     position: relative;
     left: 50%;
     transform: translateX(-50%); }
-  /* line 226, /Users/kcaplan/dev/dnb_girls_site/source/stylesheets/all.css.scss */
+  /* line 270, /Users/kcaplan/dev/dnb_girls_site/source/stylesheets/all.css.scss */
   .profile-header .name-container {
     position: absolute;
     bottom: 0;
@@ -2380,20 +2421,20 @@ body {
     right: 0;
     background-color: rgba(0, 0, 0, 0.5);
     padding: 0 0 20px 20px; }
-    /* line 234, /Users/kcaplan/dev/dnb_girls_site/source/stylesheets/all.css.scss */
+    /* line 278, /Users/kcaplan/dev/dnb_girls_site/source/stylesheets/all.css.scss */
     .profile-header .name-container h1 {
       color: #A3ADE6;
       font-size: 5em;
       font-weight: 700;
       text-shadow: 2px 2px 7px #000016; }
-    /* line 241, /Users/kcaplan/dev/dnb_girls_site/source/stylesheets/all.css.scss */
+    /* line 285, /Users/kcaplan/dev/dnb_girls_site/source/stylesheets/all.css.scss */
     .profile-header .name-container h3 {
       color: #25A6BA;
       font-size: 2em;
       font-weight: 100;
       font-style: italic;
       text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.65); }
-    /* line 249, /Users/kcaplan/dev/dnb_girls_site/source/stylesheets/all.css.scss */
+    /* line 293, /Users/kcaplan/dev/dnb_girls_site/source/stylesheets/all.css.scss */
     .profile-header .name-container .social-media {
       font-size: 3em;
       text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.65); }
@@ -2402,19 +2443,46 @@ body {
         content: "";
         display: table;
         clear: both; }
-      /* line 254, /Users/kcaplan/dev/dnb_girls_site/source/stylesheets/all.css.scss */
+      /* line 298, /Users/kcaplan/dev/dnb_girls_site/source/stylesheets/all.css.scss */
       .profile-header .name-container .social-media a {
         color: #4D5899;
         text-decoration: none;
         padding: 0 5px 0 5px; }
-        /* line 259, /Users/kcaplan/dev/dnb_girls_site/source/stylesheets/all.css.scss */
+        /* line 303, /Users/kcaplan/dev/dnb_girls_site/source/stylesheets/all.css.scss */
         .profile-header .name-container .social-media a:hover, .profile-header .name-container .social-media a:active {
           color: #4617CC; }
-        /* line 263, /Users/kcaplan/dev/dnb_girls_site/source/stylesheets/all.css.scss */
+        /* line 307, /Users/kcaplan/dev/dnb_girls_site/source/stylesheets/all.css.scss */
         .profile-header .name-container .social-media a:visited {
           color: #4D5899; }
 
-/* line 271, /Users/kcaplan/dev/dnb_girls_site/source/stylesheets/all.css.scss */
+/* line 315, /Users/kcaplan/dev/dnb_girls_site/source/stylesheets/all.css.scss */
+.news-container {
+  padding: 10px; }
+
+/* line 319, /Users/kcaplan/dev/dnb_girls_site/source/stylesheets/all.css.scss */
+.month {
+  color: #A3ADE6;
+  background: #000016;
+  font-size: 2em;
+  padding: 20px; }
+  /* line 13, /Users/kcaplan/dev/dnb_girls_site/source/stylesheets/all.css.scss */
+  .month:after {
+    content: "";
+    display: table;
+    clear: both; }
+  /* line 325, /Users/kcaplan/dev/dnb_girls_site/source/stylesheets/all.css.scss */
+  .month a {
+    color: #A3ADE6;
+    text-decoration: none;
+    padding: 0 5px 0 5px; }
+    /* line 330, /Users/kcaplan/dev/dnb_girls_site/source/stylesheets/all.css.scss */
+    .month a:hover, .month a:active {
+      color: #4D5899; }
+    /* line 333, /Users/kcaplan/dev/dnb_girls_site/source/stylesheets/all.css.scss */
+    .month a:visited {
+      color: #A3ADE6; }
+
+/* line 339, /Users/kcaplan/dev/dnb_girls_site/source/stylesheets/all.css.scss */
 section.border button {
   color: #4D5899;
   margin-bottom: 20px;
@@ -2428,12 +2496,12 @@ section.border button {
     content: "";
     display: table;
     clear: both; }
-  /* line 280, /Users/kcaplan/dev/dnb_girls_site/source/stylesheets/all.css.scss */
+  /* line 348, /Users/kcaplan/dev/dnb_girls_site/source/stylesheets/all.css.scss */
   section.border button:hover {
     color: #A3ADE6;
     border: solid 3px #A3ADE6; }
 
-/* line 286, /Users/kcaplan/dev/dnb_girls_site/source/stylesheets/all.css.scss */
+/* line 354, /Users/kcaplan/dev/dnb_girls_site/source/stylesheets/all.css.scss */
 .profile-content {
   margin: 25px 0 25px 0; }
   /* line 13, /Users/kcaplan/dev/dnb_girls_site/source/stylesheets/all.css.scss */
@@ -2441,6 +2509,22 @@ section.border button {
     content: "";
     display: table;
     clear: both; }
+
+/* line 360, /Users/kcaplan/dev/dnb_girls_site/source/stylesheets/all.css.scss */
+.contact-container {
+  padding: 50px; }
+  /* line 362, /Users/kcaplan/dev/dnb_girls_site/source/stylesheets/all.css.scss */
+  .contact-container section.border button {
+    color: #A3ADE6;
+    margin-bottom: 20px;
+    background: #000016;
+    border: solid 3px #A3ADE6;
+    font-size: 2em;
+    padding: 10px; }
+    /* line 369, /Users/kcaplan/dev/dnb_girls_site/source/stylesheets/all.css.scss */
+    .contact-container section.border button:hover {
+      color: #4D5899;
+      border: solid 5px #4D5899; }
 
 @media (min-width: 320px) {
   /* line 5, /Users/kcaplan/dev/dnb_girls_site/source/stylesheets/_mobile.css.scss */
@@ -2560,7 +2644,19 @@ section.border button {
     padding-left: 2.5%;
     padding-right: 2.5%; }
 
-  /* line 105, /Users/kcaplan/dev/dnb_girls_site/source/stylesheets/_midsize.css.scss */
+  /* line 104, /Users/kcaplan/dev/dnb_girls_site/source/stylesheets/_midsize.css.scss */
+  .contact-container section.border button {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 50%;
+    float: left;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    margin-left: 25%;
+    margin-right: 25%; }
+
+  /* line 113, /Users/kcaplan/dev/dnb_girls_site/source/stylesheets/_midsize.css.scss */
   .girls .girls-container {
     width: 97.22222%;
     float: left;
@@ -2569,7 +2665,7 @@ section.border button {
     margin-left: auto;
     margin-right: auto;
     min-width: 320px; }
-  /* line 113, /Users/kcaplan/dev/dnb_girls_site/source/stylesheets/_midsize.css.scss */
+  /* line 121, /Users/kcaplan/dev/dnb_girls_site/source/stylesheets/_midsize.css.scss */
   .girls .profile {
     width: 47.22222%;
     float: left;
@@ -2756,14 +2852,26 @@ section.border button {
     margin-left: 41.66667%;
     margin-right: 41.66667%; }
 
-  /* line 133, /Users/kcaplan/dev/dnb_girls_site/source/stylesheets/_fullsize.css.scss */
+  /* line 131, /Users/kcaplan/dev/dnb_girls_site/source/stylesheets/_fullsize.css.scss */
+  .contact-container section.border button {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 33.33333%;
+    float: left;
+    padding-left: 0.83333%;
+    padding-right: 0.83333%;
+    margin-left: 33.33333%;
+    margin-right: 33.33333%; }
+
+  /* line 141, /Users/kcaplan/dev/dnb_girls_site/source/stylesheets/_fullsize.css.scss */
   .girls .girls-container {
     margin-left: auto;
     margin-right: auto; }
-  /* line 138, /Users/kcaplan/dev/dnb_girls_site/source/stylesheets/_fullsize.css.scss */
+  /* line 146, /Users/kcaplan/dev/dnb_girls_site/source/stylesheets/_fullsize.css.scss */
   .girls a {
     display: inline-block; }
-  /* line 142, /Users/kcaplan/dev/dnb_girls_site/source/stylesheets/_fullsize.css.scss */
+  /* line 150, /Users/kcaplan/dev/dnb_girls_site/source/stylesheets/_fullsize.css.scss */
   .girls .profile {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
