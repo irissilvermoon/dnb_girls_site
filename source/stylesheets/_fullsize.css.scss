@@ -121,11 +121,19 @@ $profiles: (
     }
   }
   
-section.border button {
-  @include span(2);
-  margin-left: span(5);
-  margin-right: span(5);
-}
+  section.border button {
+    @include span(2);
+    margin-left: span(5);
+    margin-right: span(5);
+  }
+
+  .contact-container {   
+    section.border button {
+      @include span(4);
+      margin-left: span(4);
+      margin-right: span(4);
+    }
+  }
 
   .girls {
 

@@ -19,7 +19,7 @@ iris:
 
 jams:
   name: Jamie Jams
-  affiliations: 403DnB // HighOnbeats.com // DnB Girls
+  affiliations: 403DnB // DnB Girls
   images:
     - "images/jams/jams1.jpg"
     - "images/jams/jams2.jpg"
@@ -32,7 +32,7 @@ jams:
   soundcloud_link: >
     <iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/819116&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
   bio: >
-    <p>As general manager of the DnB Girls organization; a collective that pushes the sound of accomplished female artists across the globe, and the main lady of DnB Lives Here; a group of folks committed to growing and advancing DnB music culture across Canada, Jams has been holding things down in her community as a boss lady of DnB. Although passionate about Drum and Bass versatility does not pass her by. While focused mainly on jungle influenced sounds she actively explores every angle of the bass music spectrum keeping her listeners on their toes and her dance floors on fiyah. Having placed 3rd out of 40 participants in her first ever DJ competition only 6 months into her DJ career she subsequently went onto becoming the top female DJ in Edmonton before making her way out east. This talented lady held her own in the big bass leagues of Montreal both solo and as one half of the Dj Duo Master- Faders, who collectively pushed Jungle Bass Music to the next level. Having toured the country playing every major musical city in Canada Jams is now fresh off a recent move to Calgary where she has been rostered with the 403DnB crew and has plans to continue spreading the Drum and Bass and Jungle vibes nationwide.</p>
+    <p>As general manager of the DnB Girls organization; a collective that pushes the sound of accomplished female artists across the globe, Jams has been holding things down in her community as a boss lady of DnB. Although passionate about Drum and Bass versatility does not pass her by. While focused mainly on jungle influenced sounds she actively explores every angle of the bass music spectrum, bringing nothing but the heat. Having placed 3rd out of 40 participants in her first ever DJ competition only 6 months into her DJ career she subsequently went onto becoming one of the top DJ’s in Edmonton before making her way out east to Montreal. It’s been a big couple years for Jams with recent performances at Envision in Costa Rica, Sunrise Sessions Shambhala, MEME, Motion Notion, Metropolis, Fozzy Festival, Valhalla, Evolve, Touring with Kytami and now Astral Harvest 10 year! Jams is currently stationed in Calgary where has plans to continue spreading the Drum and Bass and Jungle vibes nationwide.</p>
 
 jfkillah:
   name: J.F. Killah
@@ -266,3 +266,33 @@ athena:
   bio: >
     <p>Athena has been involved in the Texas dance scene since the age of 15. She started her career by handing out flyers to promote for local events and quickly progressed to event coordinating and full scale promotion. Being Co-Founder of Ritual Kaos and BITCHESLOVEBASS.COM she has supported the Texas dance scene for over 15 years and works steadily to elevate the art . With her newest endeavor, she is earning the respect of the nation and overseas acts as well as the local Texas scene. Having been mentored by by Phooka and Mass Destruction( ScratchAssassin) its no wonder she has proven to be a dominant force in the electronic dance music scene. With in 6 months of her picking up records she was headlining out of state shows and playing regularly at legendary D&B Weeklies such as Two Tone and Battletech in dallas , DNB Sonar in Austin, and Frenzi in Houston.  Within a year she was headlining all over central America such as Guatemala , Honduras and Costa Rica .She has quickly evolved as a DJ experimenting with everything from Drum N bass to Dubstep even Reggae there is no genre of music she can not conqur. Being on on the brightest up and coming artist she is sure to prove why athena is the goddess of war.</p>
 
+lovelace:
+  name: Lovelace
+  affiliations: BP² // Destination Jungle // Sub.mission Hawaii // DnB Girls
+  images:
+    - "images/lovelace/lovelace1.jpg"
+    - "images/lovelace/lovelace1.jpg"
+    - "images/lovelace/lovelace1.jpg"
+    - "images/lovelace/lovelace1.jpg"
+  facebook: https://www.facebook.com/lovelace.dnb/
+  soundcloud: https://soundcloud.com/matoslovelace
+  soundcloud_link: >
+    <iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/23941054&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+  bio: >
+    <p>Born into a family of musicians and passionate music lovers, music has been a huge part of Lovelace's life since day one. Lovelace fell in love with electronic music in the late 90's and began DJ'ing in 2000 playing throughout Central California. Lovelace joined forces with Matos in the San Francisco Bay Area in 2011. Their creative synergy and mutual love of Drum & Bass and Jungle music was a powerful force that could not be ignored. Lovelace pushes the sound hard and has played at some of the largest DnB nights in the US including Respect LA; Stamina SF; United D&B, Substructure, & Torque in Florida; BP², Natural Selection, NYC Jump Up!, and Konkrete Jungle in New York City; Sub.mission in Denver; Organized Grime in San Diego. Lovelace has shared the stage with international artists such as Top Cat, Liondub, Heist, Sub Zero, Marcus Visionary, Cyantific, Ricky Force, and more, as well as much American talent. In 2015 Matos & Lovelace expanded their reach with shows in Costa Rica & Hong Kong, China, as well as a guest appearance on the mighty KoolLondon.com. Lovelace takes pride in excellent mixing skills and unique selection flow that always takes the dancefloor on a powerful journey through the sounds of DnB and Jungle music, whether playing to seasoned junglists or fresh ears alike.</p>
+    <p>While living on Maui in 2012 / 2013, Lovelace pushed the DnB & Jungle sound as an independent DJ as well as an original resident of Sub.mission Hawaii, a subchapter of Sub.mission Denver. Later Matos joined her on the island and they launched Destination Jungle as a platform for the sound on Maui, hosting US and international talent such as Marcus Visionary, Ben Soundscape, Calculon, Jaybee & Tankman. After relocating to the New York area in 2014, they also expanded Destination Jungle to a radio show, where they and special guests spread the sound worldwide. In 2015 Lovelace became a member of DnB Girls, and Matos + Lovelace were welcomed into the renowned BP² crew in NYC. Now their creative synergy is going to the next level... the recording studio! Stay tuned…</p>
+
+ninjette:
+  name: Ninjette
+  affiliations: DnB Girls // Safari Bass // Motion Notion // Truespin
+  images:
+    - "images/ninjette/ninjette1.jpg"
+    - "images/ninjette/ninjette2.jpg"
+    - "images/ninjette/ninjette3.jpg"
+    - "images/ninjette/ninjette4.jpg"
+  facebook: https://www.facebook.com/Ninjette/ 
+  soundcloud: https://soundcloud.com/ninjette
+  soundcloud_link: >
+    <iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/734341&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+  bio: >
+    <p>Hailing from Calgary, Alberta, Ninjette is a natural performer. Her swift selections are a juxtaposition of deep, dark bass and playful melodies. Although she is well known for her love affair with Drum and Bass, she is also a stealthy maestro of mid-tempo sounds with a particular affection for Glitch Hop and Future Soul and Bass. </p>

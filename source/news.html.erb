@@ -1,0 +1,32 @@
+<% @title = "News" %>
+
+
+<div class="news-body">
+  <h1>DnB Girls News!</h1>
+
+  <div class="news-month">
+    <a name="july2016"><h2><%= data.news.july2016.title %></h2></a>
+    <h4><%= data.news.july2016.date %></h4>
+
+    <div class="news-body">
+      <%= data.news.july2016.news %>
+    </div>
+
+    <section class="border">
+      <a href="/"><button class="return">Back to the Girls</button></a>
+    </section>
+  </div>
+
+  <div class="news-month">
+    <a name="february2016"><h2><%= data.news.february2016.title %></h2></a>
+    <h4><%= data.news.february2016.date %></h4>
+    
+    <div class="news-body">
+      <%= data.news.february2016.news %>
+    </div>
+  </div>
+
+  <section class="border">
+    <a href="/"><button class="return">Back to the Girls</button></a>
+  </section>
+</div>
