@@ -357,6 +357,22 @@ section.border button {
 
 }
 
+.contact-container {
+  padding: 50px;
+  section.border button {
+    color: #A3ADE6;
+    margin-bottom: 20px;
+    background: #000016;
+    border: solid 3px #A3ADE6;
+    font-size: 2em;
+    padding: 10px;
+    &:hover {
+      color: #4D5899;
+      border: solid 5px #4D5899;
+    }
+  }
+}
+
 @import 'mobile';
 @import 'midsize';
 @import 'fullsize';
