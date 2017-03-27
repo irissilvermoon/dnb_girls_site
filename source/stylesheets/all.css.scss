@@ -264,6 +264,8 @@ body {
     @include clearfix;
 
     img {
+      max-height: 560px;
+      max-width: 1374px;
       position: relative;
       left: 50%;
       transform: translateX(-50%);
