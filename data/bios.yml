@@ -21,10 +21,10 @@ jams:
   name: Jamie Jams
   affiliations: 403DnB // DnB Girls
   images:
-    - "images/jams/jams1.jpg"
-    - "images/jams/jams2.jpg"
-    - "images/jams/jams3.jpg"
-    - "images/jams/jams4.jpg"
+    - "images/jams/jams5.jpg"
+    - "images/jams/jams6.jpg"
+    - "images/jams/jams7.jpg"
+    - "images/jams/jams8.jpg"
   facebook: "https://www.facebook.com/bassjellyjams"
   instagram: "http://instagram.com/Bassjelly"
   twitter: "http://twitter.com/Bassjelly"
@@ -74,7 +74,9 @@ ella:
   name: Ella
   affiliations: Beatfreakz Records
   images:
-    - "images/header.jpg"
+    - "images/ella/ella1.jpg"
+    - "images/ella/ella2.jpg"
+    - "images/ella/ella3.jpg"
   facebook: "https://www.facebook.com/ella.grave"
   instagram:
   twitter:
@@ -156,10 +158,10 @@ mizeyesis:
   name: Mizeyesis
   affiliations: Faction Recordings // Jungletrain // MIA // Threshold // SatteliteEDM
   images:
-    - "images/mizeyesis/mizeyesis1.jpg"
-    - "images/mizeyesis/mizeyesis2.jpg"
-    - "images/mizeyesis/mizeyesis3.jpg"
     - "images/mizeyesis/mizeyesis4.jpg"
+    - "images/mizeyesis/mizeyesis3.jpg"
+    - "images/mizeyesis/mizeyesis6.jpg"
+    - "images/mizeyesis/mizeyesis2.jpg"
   facebook: "https://www.facebook.com/mizeyesisDJOfficial"
   instagram: "https://instagram.com/itsmizeyesis"
   twitter: "https://twitter.com/mizeyesis"
@@ -271,9 +273,6 @@ lovelace:
   affiliations: BP² // Destination Jungle // Sub.mission Hawaii // DnB Girls
   images:
     - "images/lovelace/lovelace1.jpg"
-    - "images/lovelace/lovelace1.jpg"
-    - "images/lovelace/lovelace1.jpg"
-    - "images/lovelace/lovelace1.jpg"
   facebook: https://www.facebook.com/lovelace.dnb/
   soundcloud: https://soundcloud.com/matoslovelace
   soundcloud_link: >
@@ -289,7 +288,6 @@ ninjette:
     - "images/ninjette/ninjette1.jpg"
     - "images/ninjette/ninjette2.jpg"
     - "images/ninjette/ninjette3.jpg"
-    - "images/ninjette/ninjette4.jpg"
   facebook: https://www.facebook.com/Ninjette/ 
   soundcloud: https://soundcloud.com/ninjette
   soundcloud_link: >
