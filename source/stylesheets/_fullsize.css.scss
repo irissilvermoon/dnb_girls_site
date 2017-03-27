@@ -152,6 +152,14 @@ $profiles: (
       }
     }
   }
+
+  .news-body {
+    max-width: 1000px;
+    @include with-layout($susy, true) {
+      margin-left: span(1);
+      margin-right: span(1);
+    }
+  }
 }
 
 

@@ -51,8 +51,6 @@ body {
     position: relative;
     left: 50%;
     transform: translateX(-50%);
-
-
   }
 }
 
@@ -253,6 +251,11 @@ body {
       border-bottom-style: none;
     }
   }
+
+  section.border button {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
 }
 .profile-header {
   position: relative;
@@ -261,6 +264,8 @@ body {
     @include clearfix;
 
     img {
+      max-height: 560px;
+      max-width: 1374px;
       position: relative;
       left: 50%;
       transform: translateX(-50%);

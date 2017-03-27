@@ -123,4 +123,10 @@ $profiles: (
       }
     }
   }
+
+  .news-body {
+    @include with-layout($profiles, true) {
+      @include span(4);
+    }
+  }
 }
