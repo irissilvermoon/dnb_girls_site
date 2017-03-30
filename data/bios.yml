@@ -55,7 +55,10 @@ kytami:
   name: Kytami
   affiliations: East Van Digital // DnB Girls
   images:
-    - "images/header.jpg"
+    - "images/kytami/kytami1.jpg"
+    - "images/kytami/kytami2.jpg"
+    - "images/kytami/kytami3.jpg"
+    - "images/kytami/kytami4.jpg"
   facebook: "https://www.facebook.com/kytami"
   instagram:
   twitter:
@@ -91,7 +94,9 @@ crystal:
   name: Crystal Fresh
   affiliations: DnB Girls // Sweet Ninja Fresh // The Wild Bunch // EleKtriK KolleKtivE
   images:
-    - "images/header.jpg"
+    - "images/crystal/crystal1.jpg"
+    - "images/crystal/crystal2.jpg"
+    - "images/crystal/crystal3.jpg"
   facebook: "https://www.facebook.com/djcrystalfresh"
   instagram:
   twitter:
@@ -272,7 +277,7 @@ lovelace:
   name: Lovelace
   affiliations: BP² // Destination Jungle // Sub.mission Hawaii // DnB Girls
   images:
-    - "images/lovelace/lovelace.jpg"
+    - "images/lovelace/lovelace1.jpg"
   facebook: https://www.facebook.com/lovelace.dnb/
   soundcloud: https://soundcloud.com/matoslovelace
   soundcloud_link: >
@@ -294,3 +299,55 @@ ninjette:
     <iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/734341&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
   bio: >
     <p>Hailing from Calgary, Alberta, Ninjette is a natural performer. Her swift selections are a juxtaposition of deep, dark bass and playful melodies. Although she is well known for her love affair with Drum and Bass, she is also a stealthy maestro of mid-tempo sounds with a particular affection for Glitch Hop and Future Soul and Bass. </p>
+
+corrine:
+  name: Corrine (of Bitch Plz)
+  affiliations: Bitch Plz // DnB Girls // Dystopia // Shelter // Turnt // Disco Donutz
+  images:
+    - "images/corrine/corrine1.jpg"
+    - "images/corrine/corrine2.jpg"
+    - "images/corrine/corrine3.jpg"
+    - "images/corrine/corrine4.jpg"
+  facebook: http://facebook.com/corrineisadj
+  soundcloud: http://soundcloud.com/corrineisadj
+  twitter: https://twitter.com/corrineisaDJ
+  instagram: https://www.instagram.com/corrineisadj
+  soundcloud_link: >
+    <iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/87113&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+  bio: >
+    <p>A self-proclaimed "Mad Scientist" on the decks, Corrine puts the MIX back into DJing. This East Bay native only DJs her own edits, showing no track any mercy, giving her a no BS style that will always keep you guessing and begging for more.</p>
+    <p>She comes from a classically trained musical background, a punk rock past, and a sick obsession with pop culture, making her DJ sets nothing short of epic. Corrine is a trained hip hop dancer, studied saxophone and percussion in college, and even spent some time doing freelance rock journalism in Los Angeles. This girl can geek out with the best of them.</p>
+    <p>She has a vast knowledge of old school Hip Hop & Pop music, which allows her to please even the most basic club goer's urge to get down. Disco obsessed and procuring a never-ending influence from Breakbeat music, she makes everything that comes out of the speakers something funky. </p>
+    <p>She has gone on tour playing Moombahton & Dubstep. Her Booty Bass & Trap music sets will put to shame even the most hardcore Bros on the decks. In House & Electro, she nails the art of eb and flow, bringing people to climax with the most epic melodies and filthiest baselines around.</p>
+    <p>Everywhere she goes she dazzles audiences with her ability to mix. But recently she really found her calling when she tackled the world of Drum & Bass. From Jungle to Jump-Up, Liquid to Ragga, this badass lady doesn't mess around when it comes to DnB. Opening for such acts as, APHRODITE, MOB TACTICS, FOREIGN CONCEPT, RANDOM MOVEMENT, MSDOS, ANDY C and PENDULUM just to name a few.</p>
+    <p>Whether it's her love of rolling baselines or her ear for syncopated drumbeats, she delivers an engaging range of music, schooling even the most elite music lovers. Whatever the genre, she never hesitates to bring the house down wherever she goes. </p>
+    <p>In Early 2015, she teamed up with Drum and Bass diva Miss Haze to form the super duo BITCH PLZ making a dynamic stage show that is in high demand. She currently holds residencies with the Drum & Bass monthly DYSTOPIA and SHELTER, the longest running DnB weekly in the bay, as well as taking the reigns at the Castro in San Fransisco’s Qbar, for TURNT THURSDAYS, co-hosting nights with her partner, full of booty shaking Ghouse and teched out funky rhythms. You can find her being fresh and funky at the newest of her residencies with Bitch Plz, at DISCO DONUTZ, representing Drum and Bass at this muti-genre, costumed out, day party monthly.</p>
+    <p>She rocks a STAR WARS tattoo which makes her hard to miss, she is "The Rebel With The Treble," and she rocks every party dropping mad science on the dance floor.</p>
+
+misshaze:
+  name: Miss Haze (of Bitch Plz)
+  affiliations: DnB Girls // Bitch Plz // Speaker Spanker Radio
+  images:
+    - "images/misshaze/misshaze1.jpg"
+    - "images/misshaze/misshaze2.jpg"
+    - "images/misshaze/misshaze3.jpg"
+  facebook: https://www.facebook.com/MissHazeSF/
+  instagram:
+  twitter:
+  soundcloud: https://soundcloud.com/misshaze
+  soundcloud_link: >
+    <iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/9476946&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+  bio: >
+    <p>Currently Ranked among the World's top Drum & Bass djs on TheDJlist.com, triple threat DJ/MC/Producer Miss Haze captivates people with her magnetic personality and her exciting bass heavy performances. This selectress is 1/2 of the supergroup "BITCH PLZ" and currently holds down residencies with The DnB Girls, Speaker Spanker Radio, Irie Cartel, Turnt Thursdays and Disco Donutz. To add to her eclectic resume, she is also a successful event promoter and lady behind Bass Cellar, a hit weekly in SF that ran for several years. This event solidified her position as a essential part and contributor to San Francisco's bass music scene. As a veteran DJ of over 15 years, Haze is not afraid to throw down with the big boys. She has opened for Andy C, Pendulum, Craze , DC Breaks , Legion and more</p>
+    <p>Her continually growing catalog of original music and remixes spans several genres with multiple releases having chart topping success. Collaborating with several artists worldwide and upcoming releases on multiple labels, her production skills are in high demand. In addition to producing and mixing it up behind the decks, she rocks a mic with charismatic style, seductive melodies and a sassy flow, resulting in a captivating live show. Always at the forefront of bass heavy music, she is an intrinsic part of the bass community. Whether it's on the mic, from behind the DJ booth or in the studio making hits, Miss Haze dominates the industry and throws down the sound wherever she goes</p>
+
+template:
+  name: 
+  affiliations: 
+  images:
+  facebook: 
+  instagram:
+  twitter:
+  soundcloud: 
+  soundcloud_link: >
+  bio: >

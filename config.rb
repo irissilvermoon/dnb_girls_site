@@ -6,7 +6,7 @@
 # compass_config do |config|
 #   config.output_style = :compact
 # end
-DNB_GIRLS = %w[iris jams mittz mizeyesis ella bitchplz tiger
+DNB_GIRLS = %w[iris jams mittz mizeyesis ella corrine misshaze tiger
                crystal distinct jfkillah kytami jahkillin remedy 
                athena ohmgirl ninjette lovelace]
 
