@@ -147,7 +147,8 @@ tiger:
   name: Bulletproof Tiger
   affiliations: Driven AM // Funked Dub // Remedy // DnB Social
   images:
-    - "images/header.jpg"
+    - "images/bulletprooftiger/bpt1.jpg"
+    - "images/bulletprooftiger/bpt3.jpg"
   facebook: "https://www.facebook.com/TGRdnb"
   instagram: "https://twitter.com/TGRdnb"
   twitter:
@@ -316,6 +317,23 @@ misshaze:
   bio: >
     <p>Currently Ranked among the World's top Drum & Bass djs on TheDJlist.com, triple threat DJ/MC/Producer Miss Haze captivates people with her magnetic personality and her exciting bass heavy performances. This selectress is 1/2 of the supergroup "BITCH PLZ" and currently holds down residencies with The DnB Girls, Speaker Spanker Radio, Irie Cartel, Turnt Thursdays and Disco Donutz. To add to her eclectic resume, she is also a successful event promoter and lady behind Bass Cellar, a hit weekly in SF that ran for several years. This event solidified her position as a essential part and contributor to San Francisco's bass music scene. As a veteran DJ of over 15 years, Haze is not afraid to throw down with the big boys. She has opened for Andy C, Pendulum, Craze , DC Breaks , Legion and more</p>
     <p>Her continually growing catalog of original music and remixes spans several genres with multiple releases having chart topping success. Collaborating with several artists worldwide and upcoming releases on multiple labels, her production skills are in high demand. In addition to producing and mixing it up behind the decks, she rocks a mic with charismatic style, seductive melodies and a sassy flow, resulting in a captivating live show. Always at the forefront of bass heavy music, she is an intrinsic part of the bass community. Whether it's on the mic, from behind the DJ booth or in the studio making hits, Miss Haze dominates the industry and throws down the sound wherever she goes</p>
+
+kiddee:
+  name: kiD-Dee
+  affiliations: DnB Girls
+  images:
+    - "images/kiddee/kiddee1.jpg"
+    - "images/kiddee/kiddee2.jpg"
+    - "images/kiddee/kiddee3.jpg"
+    - "images/kiddee/kiddee4.jpg"
+  facebook: https://www.facebook.com/kiDDeeSounds/
+  instagram: https://www.instagram.com/itskid_dee/
+  twitter:
+  soundcloud:  https://soundcloud.com/kiddeesounds
+  soundcloud_link: >
+    <iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/1794207&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+  bio: >
+    <p>Danielle aka kiD-Dee, is one of Calgary/ Los Angeles up and coming Drum and Bass artists to be on the lookout for. Having moved to Calgary from Grande Prairie in 2012, kiD-Dee quickly found her home in this cities iconic DnB scene as a diehard Junglist among the best of them. After falling in love even deeper with the sounds of Drum and Bass she naturally evolved the desire to want to create her own sounds based off the experiences from the amazing live shows she attended, and the musical preferences she had acquired along her journey. After jamming once with some of her best girlfriends she knew this was an activity she would love to do in her free time. She worked hard at completing her very own studio now she could start practicing at home. Which after only a year lead her to making her very own mixes. The quality and finesse behind these mixes quickly got the attention of many acquaintances in her community leading her to many exciting opportunities on the horizon. Keep your eyes open for kiD-Dee both behind the decks and on the dance floor and perhaps even at your favourite festivals. 2018 proves to be a big year for this lil freshy and we are certain kiD-Dee will continue to impress us with the progression of both her skills, style and awesome attitude. Meow</p>
 
 template:
   name: 
